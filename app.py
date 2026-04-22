@@ -13,7 +13,7 @@ st.set_page_config(page_title="Churn App", layout="wide")
 # -------------------------
 model = pickle.load(open("model.pkl", "rb"))
 columns = pickle.load(open("columns.pkl", "rb"))
-df = pd.read_csv("C:/Users/Ashwini/Downloads/archive (1)/Customer-Churn.csv")
+df = pd.read_csv("Customer-Churn.csv")
 
 # -------------------------
 # TITLE
